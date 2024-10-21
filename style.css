@@ -131,6 +131,13 @@ img.perfil {
     background-color: beige;
 }
 
+/* Contatos */
+#contatos h2{
+    font-size: 28px;
+    color: #fca311;
+    text-align: center;
+    margin-bottom: 15px;
+}
 
 /* Rodapé */
 footer {
