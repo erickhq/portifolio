@@ -1,30 +1,41 @@
+/* Estilos gerais */
 body {
     background-color: #181818;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Cabeçalho e menu */
 header {
+    position: fixed; /* Fixa o header no topo */
+    top: 0;
+    left: 0;
+    width: 99%; /* Faz o header ocupar toda a largura da tela */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
+    background-color: #181818; /* Adicione um fundo para diferenciá-lo do restante da página */
+    z-index: 1000; /* Garante que o header fique sobre outros elementos */
+}
+
+#inicio{
+    text-decoration: none;
 }
 
 header h1 {
-    font-family: Arial, Helvetica, sans-serif;
     color: #fca311;
     margin: 20px;
+    text-decoration: none;
 }
 
 .menu {
     display: flex;
-    gap: 20px; 
+    gap: 20px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
 }
 
 .menu li a {
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #fca311;
     text-decoration: none;
@@ -35,10 +46,11 @@ hr {
     border: none;
     height: 2px;
     background-color: #fca311;
+    margin-top: 80px;
 }
-/* Introdrução */
 
-.intro {
+/* Seção de introdução */
+#intro {
     display: flex;
     align-items: center;
 
@@ -53,10 +65,78 @@ hr {
     font-size: 3em;
 }
 
-.intro > p {
+#intro > p {
     margin-right: 200px;
 }
 
-.intro > p > span {
+#intro > p > span {
     color: #fca311;
+}
+
+img.perfil {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 50%;
+    border: 3px solid #fca311;
+}
+
+/* Seção sobre */
+#sobre {
+    margin: 80px auto;
+    width: 800px;
+
+    border-radius: 8px;
+
+    margin-top: 150px;
+    padding: 20px;
+    border: 5px solid #fca311;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#sobre h2 {
+    font-size: 28px;
+    color: #fca311;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#sobre p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    text-align: justify;
+}
+
+/* Portifólio */
+#portifolio h2 {
+    font-size: 28px;
+    color: #fca311;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#projetos {
+    display: flex;
+    overflow-x: auto; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.caixa {
+    flex: 0 0 auto; 
+    height: 300px;
+    width: 300px;
+    border: 5px solid #fca311;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
 }
