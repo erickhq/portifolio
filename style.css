@@ -1,0 +1,13 @@
+body{
+    background-color: #181818;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fca311;
+}
+
+hr {
+    background-color: #fca311;
+}
