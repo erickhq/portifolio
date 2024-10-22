@@ -7,16 +7,16 @@ body {
 
 /* Cabeçalho e menu */
 header {
-    position: fixed; /* Fixa o header no topo */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 99%; /* Faz o header ocupar toda a largura da tela */
+    width: 99%; 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    background-color: #181818; /* Adicione um fundo para diferenciá-lo do restante da página */
-    z-index: 1000; /* Garante que o header fique sobre outros elementos */
+    background-color: #181818; 
+    z-index: 1000; 
 }
 
 #inicio{
@@ -128,16 +128,49 @@ img.perfil {
     width: 300px;
     border: 5px solid #fca311;
     border-radius: 20px;
-    background-color: beige;
+    background-color: white;
 }
 
-/* Contatos */
-#contatos h2{
-    font-size: 28px;
-    color: #fca311;
-    text-align: center;
-    margin-bottom: 15px;
+#um{
+    cursor: pointer;
+    background-image: url(imagens/059f419c-1c0d-41fb-aac7-d3e21d5887fa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+#dois{
+    cursor: pointer;
+    background-image: url(imagens/e37f933e-bc5f-4872-9095-923e1806c4e6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#tres{
+    cursor: pointer;
+    background-image: url(imagens/54b4b031-7be7-45c6-8fa9-c80d4a0b8601.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#quatro{
+    cursor: pointer;
+    background-image: url(imagens/3f9fc933-7ef9-4656-81b4-ea1f6c592aff.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#cinco {
+    cursor: pointer;
+    background-image: url(imagens/c881d7fa-b677-4318-8543-abdd820af731.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* Rodapé */
 footer {

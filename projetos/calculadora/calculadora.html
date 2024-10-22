@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+   <script src="/script.js"> </script>
+   <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+  <form id="calcForm">
+    <label  for="valor1"> <strong>Valor 1:</strong></label>
+    <input type="number" name="valor1" id="valor1"> <br><br>
+
+    <label for="valor2"> <strong>Valor 2:</strong></label>
+    <input type="number" name="valor2" id="valor2"> <br><br>
+
+    <label><strong>Opções:</strong></label> <br>
+    <input type="radio" id="soma" name="operacao" value="soma">
+    <label for="soma">SOMA</label><br> <br>
+
+    <input type="radio" id="subtracao" name="operacao" value="subtracao">
+    <label for="subtracao">SUBTRAÇÃO</label><br> <br>
+
+    <input type="radio" id="multiplicacao" name="operacao" value="multiplicacao">
+    <label for="multiplicacao">MULTPLICAÇÃO</label><br> <br>
+
+    <input type="radio" id="divisao" name="operacao" value="divisao">
+    <label for="divisao">DIVISÃO</label> <br><br>
+
+    <label for="resultado"><strong>Resultado:</strong></label>
+    <input  type="text" name="resultado" id="resultado" readonly> <br> <br>
+
+    <button type="button" onclick="calcular()">Calcular</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>

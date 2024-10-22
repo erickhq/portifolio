@@ -13,7 +13,6 @@
             <li><a href="#intro">Home</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#portifolio">Portifólio</a></li>
-            <li><a href="#contatos">Contatos</a></li>
         </ul>
     </header>
     <hr>
@@ -31,21 +30,34 @@
     <section id="portifolio">
         <h2>Projetos</h2>
         <div id="projetos">
-            <div class="caixa">1</div>
-            <div class="caixa">2</div>
-            <div class="caixa">3</div>
-            <div class="caixa">4</div>
+            <div id="um" class="caixa" onclick="redirecionar()"></div>
+            <div id="dois" class="caixa" onclick="calculadora()"></div>
+            <div id="tres" class="caixa" onclick="cordel()"></div>
+            <div id="quatro" class="caixa" onclick="diagrama()"></div>
+            <div id="cinco" class="caixa" onclick="celular()"></div>
         </div>
-    </section>
-
-    <section id="contatos">
-        <h2>Contatos</h2>
-        <div id="icons">
-
-        </div>
-
     </section>
 
     <footer> <p>&copy Todos os direitos reservados</p> </footer>
 </body>
+<script>
+    function redirecionar() {
+        window.location.href = "https://erickhq.github.io/projeto-android/";
+    }
+
+    function calculadora() {
+        window.location.href = "projetos/calculadora/calculadora.html"
+    }
+
+    function cordel() {
+        window.location.href = "projetos/projeto-cordel/index.html"
+    }
+    function diagrama() {
+        window.location.href = "projetos/diagrama/frente.html"
+    }
+
+    function celular() {
+        window.location.href = "projetos/projeto-social/index.html"
+    }
+</script>
 </html>
