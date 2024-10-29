@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" id="inicio"><h1>Portifólio</h1></a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="perfil.html">Perfil</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+        </ul>
+    </header>
+    <hr>
+
+    <section id="portifolio">
+        <h2>Projetos</h2>
+        <div id="projetos">
+            <div id="um" class="caixa" onclick="redirecionar()"></div>
+            <div id="dois" class="caixa" onclick="calculadora()"></div>
+            <div id="tres" class="caixa" onclick="cordel()"></div>
+            <div id="quatro" class="caixa" onclick="diagrama()"></div>
+            <div id="cinco" class="caixa" onclick="celular()"></div>
+        </div>
+    </section>
+    <footer> <p>&copy Todos os direitos reservados</p> </footer>
+</body>
+<script>
+    function redirecionar() {
+        window.open("https://erickhq.github.io/projeto-android/", "_blank");
+    }
+
+    function calculadora() {
+        window.open("projetos/calculadora/calculadora.html", "_blank");
+    }
+
+    function cordel() {
+        window.open("projetos/cordel/poema.html", "_blank");
+    }
+
+    function diagrama() {
+        window.open("projetos/diagrama/frente.html", "_blank");
+    }
+
+    function celular() {
+        window.open("projetos/social/cell.html", "_blank");
+    }
+</script>
+
+</html>
